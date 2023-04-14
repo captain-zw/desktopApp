@@ -1,15 +1,18 @@
 <template>
   <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
-  <HelloWorld msg="这是一个桌面端应用"/>
+  <HomePage msg="这是一个桌面端应用hh"/>
+  <router-link to="/test">测试</router-link><br>
+  <router-link to="/1111">路由</router-link>
+  <router-view></router-view>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import HomePage from './components/HomePage'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    HomePage
   }
 }
 </script>

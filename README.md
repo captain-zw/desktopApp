@@ -10,6 +10,15 @@ npm install
 npm run serve
 ```
 
+### 启动命令
+npm run electron:serve
+
+### 打包app
+npm run electron:build
+
+### 
+npm run build-icon
+
 ### Compiles and minifies for production
 ```
 npm run build
