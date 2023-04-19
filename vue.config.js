@@ -45,5 +45,16 @@ module.exports = {
       .set("@components", resolve("src/components"))
       .set("@base", resolve("baseConfig"))
       .set("@public", resolve("public"));
+  },
+  devServer: {
+    proxy: {
+      '/api2': {
+        target: 'https://c-test.gdrcu.com/br2/hht/',// 后端接口
+        changeOrigin: true, // 是否跨域
+        pathRewrite: {
+          '/api2': ''
+        }
+      }
+    }
   }
 };

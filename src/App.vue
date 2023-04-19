@@ -1,9 +1,9 @@
 <template>
   <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
   <HomePage msg="这是一个桌面端应用hh"/>
-  <router-link to="/test">测试</router-link><br>
-  <router-link to="/1111">路由</router-link>
-  <router-view></router-view>
+  <!-- <router-link to="/test">测试</router-link><br>
+  <router-link to="/1111">路由</router-link> -->
+  <!-- <router-view></router-view> -->
 </template>
 
 <script>
@@ -24,6 +24,6 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  /* margin-top: 60px; */
 }
 </style>

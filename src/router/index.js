@@ -14,10 +14,15 @@ const routes = [
     {
         path: '/test',
         name: '/test',
-        component: () => import('@/components/TestPage.vue')
+        component: () => import('@/components/defauldPage.vue')
+    },
+    {
+        path: '/news',
+        name: '/news',
+        component: () => import('@/views/news.vue')
     },
      // 路由重定向：强制跳转
-     { path: '/', redirect: '/home' }
+     { path: '/', redirect: '/test' }
 ]
 
 // 创建路由对象
